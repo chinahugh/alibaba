@@ -1,0 +1,190 @@
+2022-04-08 00:00:07,577 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8070:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 00:00:07,577 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 
+
+2022-04-08 00:02:41,345 INFO DEFAULT_GROUP@@service-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 00:02:41,345 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 192.168.1.4:8080_true,
+
+2022-04-08 00:02:41,347 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 192.168.1.4:8080_true,
+
+2022-04-08 00:02:50,606 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 00:02:50,606 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.1.4:8070_true,
+
+2022-04-08 00:02:50,607 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.1.4:8070_true,
+
+2022-04-08 19:49:12,993 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-04-08 20:26:41,778 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 20:26:41,780 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 20:34:45,274 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 20:35:07,469 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@ribbon, region: unknown, msg: client timeout after 15000, last beat: 1649421290279
+
+2022-04-08 20:35:22,533 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 20:35:22,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 
+
+2022-04-08 20:45:07,738 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 20:45:07,738 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8081_true,
+
+2022-04-08 20:45:40,589 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 20:45:40,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8081_true,192.168.1.4:8080_true,
+
+2022-04-08 20:54:04,496 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 20:54:04,496 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8081_true,
+
+2022-04-08 21:00:11,730 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:00:11,730 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9002_true,
+
+2022-04-08 21:00:19,567 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:00:19,567 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:00:25,064 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:00:25,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:02:05,889 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:02:05,889 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8081_true,192.168.1.4:8080_true,
+
+2022-04-08 21:02:09,351 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8081@DEFAULT@DEFAULT_GROUP@@ribbon, region: unknown, msg: client timeout after 15000, last beat: 1649422909654
+
+2022-04-08 21:02:24,382 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 21:02:24,383 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 21:02:40,337 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:02:40,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,
+
+2022-04-08 21:03:03,600 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:03:03,601 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:04:40,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 21:10:46,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:10:50,927 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:10:55,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 21:13:16,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 21:46:18,572 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@ribbon, region: unknown, msg: client timeout after 15000, last beat: 1649425560203
+
+2022-04-08 21:46:33,593 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 21:46:33,593 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 
+
+2022-04-08 21:46:41,573 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 21:46:41,573 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 21:53:25,913 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 22:13:16,223 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@ribbon, region: unknown, msg: client timeout after 15000, last beat: 1649427177993
+
+2022-04-08 22:13:31,244 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 22:13:31,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 
+
+2022-04-08 22:13:53,578 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 22:13:53,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 22:14:26,305 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@ribbon, region: unknown, msg: client timeout after 15000, last beat: 1649427248717
+
+2022-04-08 22:14:41,331 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 22:14:41,331 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 
+
+2022-04-08 22:37:34,566 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 22:37:34,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 22:52:29,546 INFO DEFAULT_GROUP@@feign {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 22:52:29,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 22:57:07,740 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:01:06,612 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:04:29,860 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:06:44,598 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:07:57,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:08:14,552 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:08:14,552 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 
+
+2022-04-08 23:08:32,888 INFO DEFAULT_GROUP@@ribbon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:08:32,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ribbon, ips: 192.168.1.4:8080_true,
+
+2022-04-08 23:09:25,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:14:56,605 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8081@DEFAULT@DEFAULT_GROUP@@feign, region: unknown, msg: client timeout after 15000, last beat: 1649430880805
+
+2022-04-08 23:15:11,634 INFO DEFAULT_GROUP@@feign {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 23:15:11,634 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 
+
+2022-04-08 23:16:08,557 INFO DEFAULT_GROUP@@feign {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:16:08,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:17:27,029 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:21:43,469 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@feign, ips: 192.168.1.4:8081_true,
+
+2022-04-08 23:37:46,219 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9001@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649432246665
+
+2022-04-08 23:38:01,250 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 23:38:01,250 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9002_true,
+
+2022-04-08 23:38:21,287 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9003@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649432285723
+
+2022-04-08 23:38:36,315 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9002@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649432296338
+
+2022-04-08 23:38:36,316 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:9003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 23:38:36,316 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9002_false,
+
+2022-04-08 23:38:51,333 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-08 23:38:51,333 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2022-04-08 23:42:40,835 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:42:40,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,
+
+2022-04-08 23:42:44,294 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:42:44,294 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9002_true,
+
+2022-04-08 23:42:46,784 INFO DEFAULT_GROUP@@client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:42:46,784 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9003_true,192.168.1.4:9001_true,192.168.1.4:9002_true,
+
+2022-04-08 23:49:15,245 INFO DEFAULT_GROUP@@sentinel {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-08 23:49:15,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@sentinel, ips: 192.168.1.4:8082_true,
+
+2022-04-08 23:50:51,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@sentinel, ips: 192.168.1.4:8082_true,
+
+2022-04-08 23:55:17,142 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9002@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649433300731
+

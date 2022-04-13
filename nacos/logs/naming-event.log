@@ -1,0 +1,26 @@
+2022-04-11 00:17:10,458 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9003@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649607411783
+
+2022-04-11 00:17:10,458 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9001@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649607413253
+
+2022-04-11 00:17:10,458 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:9002@DEFAULT@DEFAULT_GROUP@@client, region: unknown, msg: client timeout after 15000, last beat: 1649607415387
+
+2022-04-11 00:17:12,438 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8082@DEFAULT@DEFAULT_GROUP@@sentinel, region: unknown, msg: client timeout after 15000, last beat: 1649607415389
+
+2022-04-11 00:17:13,278 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8083@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1649607413381
+
+2022-04-11 00:17:25,485 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 2, content: [192.168.1.4:9003:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.1.4:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-11 00:17:25,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 192.168.1.4:9002_false,
+
+2022-04-11 00:17:25,486 INFO DEFAULT_GROUP@@client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:9002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-11 00:17:25,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@client, ips: 
+
+2022-04-11 00:17:27,468 INFO DEFAULT_GROUP@@sentinel {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-11 00:17:27,468 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@sentinel, ips: 
+
+2022-04-11 00:17:28,307 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8083:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-11 00:17:28,307 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+

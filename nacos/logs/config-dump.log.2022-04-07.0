@@ -1,0 +1,16 @@
+2022-04-07 21:29:57,056 INFO [dump-task] add task. groupKey=nacos.cfg.dataId+test, taskKey=nacos.cfg.dataId+test++false+null
+
+2022-04-07 21:51:12,136 INFO [dump-task] add task. groupKey=nacos.cfg.dataId+test, taskKey=nacos.cfg.dataId+test++false+null
+
+2022-04-07 22:38:24,567 INFO [dump-task] add task. groupKey=test+DEFAULT_GROUP, taskKey=test+DEFAULT_GROUP++false+null
+
+2022-04-07 22:38:48,017 INFO [dump-task] add task. groupKey=test+DEFAULT_GROUP+5043b5fc-7e37-4e2c-ac82-2764f08cb7c9, taskKey=test+DEFAULT_GROUP+5043b5fc-7e37-4e2c-ac82-2764f08cb7c9+false+null
+
+2022-04-07 22:39:02,272 INFO [dump-task] add task. groupKey=test+DEFAULT_GROUP, taskKey=test+DEFAULT_GROUP++false+null
+
+2022-04-07 23:37:43,530 INFO [dump-task] add task. groupKey=example+DEFAULT_GROUP, taskKey=example+DEFAULT_GROUP++false+null
+
+2022-04-07 23:38:14,525 INFO [dump-task] add task. groupKey=example+DEFAULT_GROUP, taskKey=example+DEFAULT_GROUP++false+null
+
+2022-04-07 23:38:33,898 INFO [dump-task] add task. groupKey=example+DEFAULT_GROUP, taskKey=example+DEFAULT_GROUP++false+null
+

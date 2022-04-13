@@ -1,0 +1,76 @@
+2022-04-07 21:29:06,388 INFO DEFAULT_GROUP@@nacos.naming.serviceName {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [20.18.7.10:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 21:29:06,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos.naming.serviceName, ips: 20.18.7.10:8080_true,
+
+2022-04-07 21:29:21,310 INFO {POS} {IP-DISABLED} valid: 20.18.7.10:8080@DEFAULT@DEFAULT_GROUP@@nacos.naming.serviceName, region: unknown, msg: client timeout after 15000, last beat: 1649338146284
+
+2022-04-07 21:29:36,362 INFO DEFAULT_GROUP@@nacos.naming.serviceName {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [20.18.7.10:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 21:29:36,362 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos.naming.serviceName, ips: 
+
+2022-04-07 21:35:46,147 INFO DEFAULT_GROUP@@nacos.naming.serviceName {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [20.18.7.10:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 21:35:46,147 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos.naming.serviceName, ips: 20.18.7.10:8080_true,
+
+2022-04-07 21:36:01,167 INFO {POS} {IP-DISABLED} valid: 20.18.7.10:8080@DEFAULT@DEFAULT_GROUP@@nacos.naming.serviceName, region: unknown, msg: client timeout after 15000, last beat: 1649338546145
+
+2022-04-07 21:36:16,193 INFO DEFAULT_GROUP@@nacos.naming.serviceName {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [20.18.7.10:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 21:36:16,193 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos.naming.serviceName, ips: 
+
+2022-04-07 22:33:25,922 INFO DEFAULT_GROUP@@nacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 22:33:25,923 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos, ips: 192.168.1.4:8080_true,
+
+2022-04-07 22:40:13,618 INFO DEFAULT_GROUP@@nacos {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 22:40:13,618 INFO [IP-UPDATED] namespace: testname, service: DEFAULT_GROUP@@nacos, ips: 192.168.1.4:8080_true,
+
+2022-04-07 22:40:26,492 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@nacos, region: unknown, msg: client timeout after 15000, last beat: 1649342406778
+
+2022-04-07 22:40:41,519 INFO DEFAULT_GROUP@@nacos {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 22:40:41,519 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos, ips: 
+
+2022-04-07 22:42:43,853 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@nacos, region: unknown, msg: client timeout after 15000, last beat: 1649342543873
+
+2022-04-07 22:42:53,305 INFO [IP-UPDATED] namespace: testname, service: DEFAULT_GROUP@@nacos, ips: 192.168.1.4:8080_false,
+
+2022-04-07 22:42:58,307 INFO service: DEFAULT_GROUP@@nacos {POS} {IP-ENABLED} valid: 192.168.1.4:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2022-04-07 23:36:54,092 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@nacos, region: unknown, msg: client timeout after 15000, last beat: 1649345794622
+
+2022-04-07 23:37:09,123 INFO DEFAULT_GROUP@@nacos {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 23:37:09,123 INFO [IP-UPDATED] namespace: testname, service: DEFAULT_GROUP@@nacos, ips: 
+
+2022-04-07 23:41:56,425 INFO DEFAULT_GROUP@@example {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [127.0.0.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 23:41:56,425 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@example, ips: 127.0.0.1:8080_true,
+
+2022-04-07 23:42:11,454 INFO {POS} {IP-DISABLED} valid: 127.0.0.1:8080@DEFAULT@DEFAULT_GROUP@@example, region: unknown, msg: client timeout after 15000, last beat: 1649346116422
+
+2022-04-07 23:42:26,483 INFO DEFAULT_GROUP@@example {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [127.0.0.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 23:42:26,483 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@example, ips: 
+
+2022-04-07 23:55:22,092 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 23:55:22,092 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.1.4:8070_true,
+
+2022-04-07 23:55:22,092 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.1.4:8070_true,
+
+2022-04-07 23:56:33,241 INFO DEFAULT_GROUP@@service-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-04-07 23:56:33,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 192.168.1.4:8080_true,
+
+2022-04-07 23:56:33,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 192.168.1.4:8080_true,
+
+2022-04-07 23:59:33,550 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8080@DEFAULT@DEFAULT_GROUP@@service-consumer, region: unknown, msg: client timeout after 15000, last beat: 1649347153597
+
+2022-04-07 23:59:48,588 INFO DEFAULT_GROUP@@service-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.4:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-04-07 23:59:48,588 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 
+
+2022-04-07 23:59:52,550 INFO {POS} {IP-DISABLED} valid: 192.168.1.4:8070@DEFAULT@DEFAULT_GROUP@@service-provider, region: unknown, msg: client timeout after 15000, last beat: 1649347172663
+
